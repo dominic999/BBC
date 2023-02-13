@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: ReithSansa, Arial, Halvetica, freesans, sans-serif;
+    color: white;
+}
+
+#topbar{
+    font-size: 13px;
+    width: 100%;
+    height: 64px;
+    margin: 0 auto;
+    background-color: black;
+    line-height: 64px;
+    overflow: hidden;
+    
+}
+
+#logo{
+    height: 55px;
+    float: left;
+    margin: 5px;
+    margin-right: 0;
+}
+
+#signindiv{
+    height: 100%;
+    float: left;
+}
+
+#signin{
+    font-weight: bold;
+    font-size: 100%;
+    float: left;
+}
+
+#signin-img{
+    float: left;
+    height: 48px;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+#line{
+    width: 1px;
+    height: 42%;
+    background-color: rgb(69, 68, 68);
+    float: left;
+    margin-left: 80px ;
+    margin-top: 21px;
+}
+
+.top-cell{
+    float: left;
+    margin-left: 5%;
+}
+
+#dots{
+    float: left;
+    height: 48px;
+    margin-top: 11px;
+}
+
+#search{
+    margin-top: 10px;
+    height: 42px;
+}
+
+#searchbar{
+    width: auto;
+    height: 40px;
+    position: relative;
+    bottom: 17px;
+    right: 4px;
+    color: white;
+    background-color: RGB(32 34 36);
+    border: none;
+    padding-left: 15px ;
+}
+
+#searchbar::placeholder{
+    color:white;
+    opacity: 1;
+}
+
+.main{
+    color: #5c5c5c;
+    font-size: 11px;
+    width: 87%;
+    margin: 18px auto 50px auto; ;
+}
+
+#welcome{
+    float: left;
+}
+
+#date{
+    float: right;
+    color: #8c8c8c;
+    font-weight: lighter;
+}
+
+.photos{
+    clear: both;
+    
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    flex-direction: row;
+    width: 49%;
+    justify-content: space-between;
+    
+}
+
+.row2{
+    margin-top: 27px;
+}
+
+#red-line{
+    margin-right: 10px;
+    float: left;
+    height: 2em;
+    width: 3px;
+    background-color: red;
+}
+
+#news:hover{
+    color:black;
+}
+
+#news-photo{
+    width: 100%;
+}
